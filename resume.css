@@ -1,0 +1,139 @@
+body {
+  border: solid 1px black;
+  padding: 8px;
+  background-color: darkgrey;
+}
+.resume {
+  margin: 5px;
+  padding: 0;
+}
+/*styling upper part*/
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+.box2 p {
+  margin: 5px;
+}
+.box1 {
+  display: flex;
+}
+.name {
+  vertical-align: left;
+}
+
+img {
+  width: fit-content;
+}
+
+/*styling main part*/
+main {
+  display: flex;
+  gap: 20px;
+}
+.section2 {
+  flex-basis: 60%;
+}
+.section3 {
+  flex-basis: 30%;
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+.section2 h4,
+.section2 h5 {
+  margin: 0;
+}
+
+/*styling Programming Skills*/
+.pg-skill {
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: #f0f0f0;
+  height: 15px;
+  position: relative;
+}
+
+.progress-bar {
+  color: white;
+  text-align: right;
+  line-height: 15px;
+  position: absolute;
+}
+.bar1 {
+  background-color: salmon;
+}
+.bar2 {
+  background-color: blue;
+}
+.bar3 {
+  background-color: green;
+}
+.bar4 {
+  background-color: orange;
+}
+.bar5 {
+  background-color: pink;
+}
+/*styling Graphic Skills*/
+ul li {
+  margin-left: -1.5em;
+}
+li {
+  list-style: square;
+}
+
+#red::marker {
+  color: red;
+}
+#blue::marker {
+  color: blue;
+}
+#orange::marker {
+  color: orange;
+}
+#green::marker {
+  color: green;
+}
+#pink::marker {
+  color: pink;
+}
+
+/*styling Language skills*/
+
+.bubble-container {
+  display: flex;
+  align-items: center;
+}
+
+.bubble {
+  width: 10px;
+  border: solid 1px black;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin-right: 5px;
+}
+
+.active {
+  background-color: #4caf50;
+}
+.inactive {
+  background-color: grey;
+}
+#english .active {
+  background-color: aqua;
+}
+
+#french .active {
+  background-color: green;
+}
+#spanish .active {
+  background-color: yellow;
+}
+h5 {
+  margin: 0px;
+}
